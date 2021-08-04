@@ -1,0 +1,129 @@
+<?php
+
+$hostname = "localhost";
+
+$database = "go";
+
+$username = "root";
+
+$password = "";
+$conn = mysql_connect($hostname, $username, $password);
+
+mysql_select_db($database, $conn);
+
+
+if (!isset($_SESSION)) {
+  session_start();
+}
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+ <title>This Is mY homepage</title>
+    <link rel="icon" href="img/5.png" type="image/x-png">
+    <link href="css.css"rel="stylesheet" type="text/css" />
+   
+    <style>
+        /*The following are for this demo page only (not required for the ddmenu).*/
+        /*body { background: #eee url(ddmenu/ddmenug-bg.jpg) no-repeat center 0px; padding-top:-10px; width:200; height:100;}*/
+    </style>
+</head>
+
+
+<center>
+
+<form>
+
+<table border="0" bordercolor="#003399" height="222" width="799">
+<tr>
+<td width="800"><img src="banner2.png" height="222" width="799"></td>
+</tr>
+</table>
+</center>
+</body>
+<body>
+<center>
+<table border="0" width="800" height="25">
+<tr>
+<td width="300">
+<center><font face="mtn brighter sans"><b>Hello  <?php echo $_SESSION['name'] ?><b></font></center>
+</td>
+<td width="250">
+<form method="get" action="http://www.mysite.com/search.php"> 
+<table cellpadding="0px" cellspacing="0px"> 
+
+</table>
+</form>
+</td>
+
+<td width="150">
+
+</td>
+</tr>
+</table>
+</center>
+</body>
+<body>
+
+<nav id="ddmenu">
+    <div class="menu-icon"></div>
+    <ul>
+       <li class="no-sub">
+            <a class="top-heading" href="home.php">HOME</a>            </li>
+          </div>
+            </div>
+        </li>
+<li class="no-sub">
+            <a class="top-heading" href="news.php">New student</a>            </li>
+        
+       <li class="no-sub">
+            <a class="top-heading" href="events.php">All Students</a>           </li>  
+        <li class="no-sub">
+            <a class="top-heading" href="Join freind.php">Update</a>           </li>  
+                   <li class="no-sub">
+            <a class="top-heading" href="schools.php">Contact Us</a>            </li>
+                   
+                   </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+    
+</body>
+
+<body>
+<center>
+<form>
+<table border="0" bordercolor="#003399" height="400" width="800">
+<tr>
+<td width="200">
+
+</td>
+<td width="550">
+
+
+                    
+       
+
+
+
+
+
+
+
+
+
+</td>
+
+</table>
+</body>
+</body>
+<body>
+
+</body>
+</html>

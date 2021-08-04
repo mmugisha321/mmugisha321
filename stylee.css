@@ -1,0 +1,146 @@
+#title
+{
+font-size:22px;
+
+
+background-color:#5084BA
+font-family:"Bodoni MT Black";
+
+             
+}
+#user
+{
+background:#ffffff;
+width:200px;
+height: 40px;
+border-collapse: collapse;
+border:1px solid;
+
+
+}
+#user:hover
+{
+
+box-shadow: 1px 0px 5px 2px #ffffff;
+
+}
+
+#login{
+
+
+height:44px;
+width:111px;
+background-color:#5084BA;
+border-collapse: collapse;
+border:1px ;
+color: white;
+
+}
+
+
+#login:hover{
+
+height:44px;
+width:111px;
+opacity: 0.4;
+
+
+}
+
+a{
+text-decoration:none; 
+
+
+}
+a:hover{
+
+color:#5084BA;
+}
+.img {
+
+margin-top: 44px;
+margin-left: 444px;
+
+}
+
+.bar
+{
+margin-left:-44px;
+width: 444px;
+height:22px;
+padding: 1px;;
+}
+.form {
+
+width:444px;
+height:300px;
+border-radius: 55px;;
+font-family: CorisandeLight;
+font-size: 22px;
+margin-left:444px; 
+margin-top:111px;
+border-collapse: collapse;
+border:1px solid;
+padding: 33px;
+padding-left: 55px;
+color: grey;
+}
+
+
+
+
+.vi
+{
+
+margin-top: 222px;
+
+}
+
+
+.form2 {
+
+    width:444px;
+    height:444px;
+    border-radius: 55px;
+    font-family: CorisandeLight;
+    font-size: 18px;
+    margin-left:400px; 
+    margin-top:55px;
+    border-collapse: collapse;
+    border:1px solid #5084BA;;
+    padding: 44px;
+    padding-TOP: 11px;
+    color: grey;
+    }
+
+    .form3 {
+
+        width:444px;
+        height:444px;
+        border-radius: 55px;
+        font-family: CorisandeLight;
+        font-size: 18px;
+        margin-left:444px; 
+        margin-top:111px;
+        border-collapse: collapse;
+        border:1px solid;
+        padding: 44px;
+    
+        color: grey;
+        }
+        
+    
+input[text]
+
+{
+height:55px;
+
+
+}
+
+#table
+{
+    font-family: CorisandeLight;
+    color:#3f4346;
+
+}
